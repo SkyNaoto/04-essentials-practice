@@ -41,5 +41,6 @@ export class AppComponent {
       });
     }
     this.resultsData = annualData;
+    console.log('Investment Results:', this.resultsData);
   }
 }
